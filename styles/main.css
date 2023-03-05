@@ -1,0 +1,184 @@
+* {
+  font-family: "Karla", sans-serif;
+  color: #999;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 350px;
+}
+
+/* phone picture */
+
+.container-phones {
+  display: flex;
+  flex-direction: row;
+}
+
+.phones img {
+  margin: 140px 0;
+}
+
+/* form */
+
+.flex-field {
+  display: flex;
+  align-items: center;
+}
+
+form {
+  max-width: 350px;
+  margin: 40px 25px;
+  margin-bottom: 10px;
+  float: right;
+  background-color: white;
+  padding: 20px 20px 15px 15px;
+  border: 1px solid #e6e6e6;
+}
+
+.shift {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 100px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 6px 15px;
+  border: #e6e6e6 solid;
+  border-radius: 3px;
+}
+
+input[type="submit"],
+#facebook-button {
+  padding: 10px 88px;
+}
+
+input[type="submit"] {
+  font-family: FontAwesome, "Karla", sans-serif;
+  background-color: #3897f0;
+  color: white;
+  border: 1px solid #3897f0;
+  border-radius: 3px;
+}
+
+input[type="submit"],
+#sign-up-button {
+  margin-top: 10px;
+  padding: 10px 136px;
+}
+
+.form-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 10px 20px 15px 15px;
+  border: 1px solid #e6e6e6;
+  text-align: center;
+  max-width: 350px;
+  margin: 0 25px 40px 25px;
+}
+
+.form-bottom a {
+  color: #3897f0;
+  padding-left: 5px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+form .instagram-logo {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+
+form .photos-videos-text {
+  text-align: center;
+  font-size: 20px;
+}
+
+form .or {
+  text-align: center;
+  text-transform: uppercase;
+}
+form .policy {
+  padding: 12px 10px;
+  text-align: center;
+}
+
+/* bottom icons */
+h4 {
+  text-align: center;
+}
+
+.store-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  margin: 0 2px;
+  float: none;
+  display: inline;
+  width: 18%;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 140px;
+}
+
+.footer-links nav a {
+  padding: 0 7px;
+  color: #003569;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.copyright {
+  font-size: 14px;
+}
+/* general */
+
+a {
+  text-decoration: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+  .form-container {
+    align-items: center;
+  }
+}
+
+/* Desktop up */
+
+@media (min-width: 992px) {
+  .container {
+    flex-direction: column;
+  }
+}
